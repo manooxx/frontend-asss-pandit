@@ -52,6 +52,13 @@ const handleSubmit = async(e)=>{
         <p className='text-white pr-12 text-sm cursor-pointer hover:underline'>Don't have account?</p>
         
       </div>
+      <div className='w-[500px] fixed right-[0px] top-[70px] z-40'>
+        <img src="https://s3-alpha-sig.figma.com/img/3728/a488/6b91537a04814f17c6a4ef090f299bdf?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JLiCJlWRaBW1RlPULusgAsp~XFYsNNnB-82bLA79XX~Hk23aiHmkXEQo9CaY8j8XxXeJim6EBHJxyZ35GFM8SvQNHXG3m2Q1qk2oNsczPXFOiPv7CACt6pLs9Cwy614SKBS5cdHjFgCjvFyrn6IP3tIwP2-SQffqUJyWQm2nzmWKTS2DNp~TWbtHGYyVt2rGnUUrmXtcf7iIHdQcoKzcBBO5WvGPbIc1htrc5w-xpepKmk1TWL-A~vzmp5Byj7L~nkmkMyoHlYglJURg4VcAL6lu32NHP~liWaw7GmabufgP-FZ6w6wHLnZ9siaxM05TmBs38QT5BmG3~Lih0q0q-Q__" alt="" />
+      </div>
+      <div className='w-[590px] h-[590px] fixed right-[28px] top-[180px] z-20'>
+        <img src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
+      </div>
+
 
     <div className='relative w-5/12 h-screen  bg-slate-400'>
     <img className='h-screen object-cover opacity-20' src="https://s3-alpha-sig.figma.com/img/9263/7f09/85a06cb9bd0b962f4c2c5fd0d86bf79f?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SoIKhpQO1FHAOpqHB9ONxisqsu77JJgSPPKh9oBbPBH3LLBPt-5cdQ0pbdIww4y9uOwfdEeJavsZO2i~GvRGenAVjZCJFqs-c2gQg4cFyr0oMhBNsPcEI-7uERz4JIp~XfrkaVbV4vk0Sxf1DJwCwAmUcm7v4sTMSYjZK1j-cvZG-8eycjoSQlh5e3XOJ64mtGdGwhOiUZ5uf6~aPMpI4ncsC0T7NozfaumeVO8GB6w9gu0-A9S-ub2MGaafIgUJobRN4gfLL8akuW-flq16bx86N~gfcve1j9Lnm5D88-OWCcfZDg-ptBxw1jHdih4twangfy6h09tUuobmKjHTxw__" alt="" />
@@ -76,6 +83,14 @@ const handleSubmit = async(e)=>{
 
          </div>
     </div>
+
+    <div className='absolute top-[200px] left-[560px] z-50 '>
+        <h2 className='text-3xl mb-2'>
+        पूजा पाठ हो या अनुष्ठान,
+
+        </h2>
+       <p className='text-3xl'> <span className='text-red-500 '>पंडित</span> मिलना हुआ आसान।  </p>
+      </div>
    </div>
   )
 }
