@@ -52,7 +52,7 @@ const handleSubmit = async(e)=>{
         <p className='text-white pr-12 text-sm cursor-pointer hover:underline'>Don't have account?</p>
         
       </div>
-      <div className='w-[500px] fixed right-[0px] top-[94px] z-40'>
+      <div className='w-[500px] fixed right-[0px] top-[100px] z-40'>
         <img src="https://s3-alpha-sig.figma.com/img/3728/a488/6b91537a04814f17c6a4ef090f299bdf?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JLiCJlWRaBW1RlPULusgAsp~XFYsNNnB-82bLA79XX~Hk23aiHmkXEQo9CaY8j8XxXeJim6EBHJxyZ35GFM8SvQNHXG3m2Q1qk2oNsczPXFOiPv7CACt6pLs9Cwy614SKBS5cdHjFgCjvFyrn6IP3tIwP2-SQffqUJyWQm2nzmWKTS2DNp~TWbtHGYyVt2rGnUUrmXtcf7iIHdQcoKzcBBO5WvGPbIc1htrc5w-xpepKmk1TWL-A~vzmp5Byj7L~nkmkMyoHlYglJURg4VcAL6lu32NHP~liWaw7GmabufgP-FZ6w6wHLnZ9siaxM05TmBs38QT5BmG3~Lih0q0q-Q__" alt="" />
       </div>
       <div className='w-[590px] h-[590px] fixed right-[28px] top-[180px] z-20'>
@@ -84,12 +84,12 @@ const handleSubmit = async(e)=>{
          </div>
     </div>
 
-    <div className='absolute top-[200px] left-[560px] z-50 '>
-        <h2 className='text-3xl mb-2'>
+    <div className='absolute top-[200px] left-[600px] z-50 '>
+        <h2 className='text-4xl mb-2'>
         पूजा पाठ हो या अनुष्ठान,
 
         </h2>
-       <p className='text-3xl'> <span className='text-red-500 '>पंडित</span> मिलना हुआ आसान।  </p>
+       <p className='text-4xl'> <span className='text-red-500 '>पंडित</span> मिलना हुआ आसान।  </p>
       </div>
    </div>
   )
