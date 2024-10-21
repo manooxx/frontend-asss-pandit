@@ -83,7 +83,7 @@ const ServicesPage = () => {
   const isAddServiceDisabled = !selectedService || !serviceDetails[selectedService]?.duration || !serviceDetails[selectedService]?.price;
 
   return (
-    <div className="p-6 py-16  flex flex-col justify-center items-center z-30">
+    <div className="p-6 py-16 relative overflow-hidden  flex flex-col justify-center items-center z-30">
       <div className='w-full rounded-lg px-2  flex justify-between items-center fixed top-1 border bg-red-600 h-12 z-50'>
         <div className='border m-2 rounded-full bg-white'>
           <img className='w-10 h-10' src="https://s3-alpha-sig.figma.com/img/6c85/cb8f/85b58141bd48f98fb066904cca579519?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=T98BcLbcitKEFgswX3Uewxm1nFuQbc4iBcIrE8xT3XWMDrnkjhT-9QOtY7UcZ64d-~6oPwqo27yvO1CHIrIr0pc8sV4X-C1-gg~P~kbk1NguKUkFdzk3CTiRwEHpRQ2rMbxKqirVz3CGnbE8J6F4UmEqcJ7OLicG5li3OLET8o1bWD06g1h2G74z1yPMhyYWkAQCFiowO~rgfvuy2cFjU8JMNBvM~JFjxHpHtClgRf8ALE08E8qjp2Ji-N0vN86LyZf0z4efqaxQFr8LaJlmj~DNz0xd1CNtEDbxrizxMhttjey64XMYLmMRm2VRFKaLMcm3MB1dBpwnCwx0tns4CA__" alt="" />
@@ -94,14 +94,14 @@ const ServicesPage = () => {
         </div>
         
       </div>
-      <div className='fixed top-[75px] left-2 text-xl  cursor-pointer z-30'>
+      <div className='absolute top-[75px] left-2 text-xl  cursor-pointer z-30'>
       <IoMdArrowBack className='' onClick={handleBack} />
       </div>
 
-      <div className='w-64 fixed left-[-120px] top-16 z-10'>
+      <div className='w-64 absolute left-[-120px] top-16 z-10'>
         <img src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
      </div>
-     <div className='w-[550px] fixed right-[-250px] top-32 z-10'>
+     <div className='w-1/2 absolute right-[-250px] bottom-10 z-10'>
         <img src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
      </div>
      
@@ -169,7 +169,7 @@ const ServicesPage = () => {
       <button
         onClick={handleAddService}
         disabled={isAddServiceDisabled} // Disable button if conditions are not met
-        className={`h-8 z-30 flex justify-center items-center fixed top-[610px] md:top-[490px] rounded-lg text-white text-sm duration-300 w-1/3 ${
+        className={`h-8 z-30 flex justify-center items-center fixed  md:bottom-10 rounded-lg text-white text-sm duration-300 w-1/3 ${
           isAddServiceDisabled
             ? 'bg-gray-400 cursor-not-allowed'
             : 'bg-red-600 hover:bg-red-700 hover:shadow-lg'
