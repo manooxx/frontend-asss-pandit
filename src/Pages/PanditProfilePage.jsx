@@ -43,7 +43,7 @@ const PanditProfilePage = () => {
             
             <div>
                 
-                <img className= 'absolute  drop-shadow-xl  md:w-full h-[690px] md:h-[600px] top-0 left-0 z-30' src="./Images/final.png" alt="" />
+                <img className= 'absolute  drop-shadow-xl  md:w-full h-[690px] md:h-[89%] top-0 left-0 z-30' src="./Images/final.png" alt="" />
                 <img className='absolute h-screen opacity-70 right-[0px] top-[440px] md:w-[1100px] md:h-[900px]  md:right-20 md:top-36  z-10' src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
             </div>
             

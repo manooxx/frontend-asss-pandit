@@ -169,7 +169,7 @@ const ServicesPage = () => {
       <button
         onClick={handleAddService}
         disabled={isAddServiceDisabled} // Disable button if conditions are not met
-        className={`h-8 z-30 flex justify-center items-center fixed  md:bottom-10 rounded-lg text-white text-sm duration-300 w-1/3 ${
+        className={`h-8 z-30 flex justify-center items-center fixed bottom-20 md:bottom-10 rounded-lg text-white text-sm duration-300 w-1/3 ${
           isAddServiceDisabled
             ? 'bg-gray-400 cursor-not-allowed'
             : 'bg-red-600 hover:bg-red-700 hover:shadow-lg'
