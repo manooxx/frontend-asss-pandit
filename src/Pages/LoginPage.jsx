@@ -30,7 +30,7 @@ const LoginPage = () => {
 
     <div className='relative w-full h-screen overflow-hidden '>
 
-<div className='absolute top-36 right-20 md:right-64 md:top-40  z-50  '>
+<div className='absolute top-36 right-20 md:right-80 md:top-40  z-50  '>
         <h2 className='text-xl text-white md:text-black md:text-4xl mb-2'>
         पूजा पाठ हो या अनुष्ठान,
 

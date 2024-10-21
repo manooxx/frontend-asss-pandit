@@ -43,11 +43,11 @@ const PanditProfilePage = () => {
             
             <div>
                 
-                <img className= 'absolute  drop-shadow-xl  md:w-full h-[690px] md:h-[89%] top-0 left-0 z-30' src="./Images/final.png" alt="" />
+                <img className= 'absolute  drop-shadow-xl  md:w-full h-[690px] md:h-[100%] top-0 left-0 z-30' src="./Images/final.png" alt="" />
                 <img className='absolute h-screen opacity-70 right-[0px] top-[440px] md:w-[1100px] md:h-[900px]  md:right-20 md:top-36  z-10' src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
             </div>
             
-          <div className=" flex flex-col absolute justify-center items-center   md:top-[100px] p-6 rounded  w-96 z-30 gap-3">
+          <div className=" flex flex-col  justify-center items-center    p-6 rounded   z-30 gap-3">
 
             <div className='w-20 rounded-full  drop-shadow-xl'>
               <img className='rounded-full object-cover' src="https://s3-alpha-sig.figma.com/img/3b4a/d73b/b44e8d200d35ff83994d863d6f4ff3ad?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OJkKUltckUxGQVADwFuamGprMx~NqiXzXnsqHMrMFI5d0OnNpvqmfKdn0KdJUiuoUop-LVsB2ct8CrBD-6itPWWZyMU3ydiPuRPuW8YzVUNPOFEhq2AbIjK90HpsNp-7qVy4FjUssURACscOn4tr-bEn7jRJusQzVEtQOidJaTO52f19fSUDdi5Vr3-dXhjlKvRxTAFpMO7aud1N9r26uHifi6BoFa0LDkEjYMbBBlVEFqZcz5UfmX6PDh2rPYGk4QqQYKiWFMe2mdRSB1lOlAhLas3Lsh2ZpkI0sF8uc7uA~UjYGniee9soEiqTlx6Ou7DtbCFJkIbh0k4rk8aM4g__" alt="" />
