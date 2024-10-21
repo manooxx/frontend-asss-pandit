@@ -10,17 +10,17 @@ const Conformation = () => {
         
            </div>
            </div>
-     <div className='w-64 fixed left-[-120px] top-16'>
+     <div className='w-64 fixed left-[-120px] top-16 z-10'>
         <img src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
      </div>
-     <div className='w-[550px] fixed right-[-250px] top-32'>
+     <div className='w-[550px] fixed right-[-250px] top-32 z-10'>
         <img src="https://s3-alpha-sig.figma.com/img/8995/10f6/5efd349079a91edc875a4766c9f16ae8?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fd-UHyBxHgKqTau-cGaCiGmHdXN8ulsa3Q1NzLPOiFEzWS-vae-99Ntu4PU~TvpqIX5ac4kBU5gFRyT~gQeaKclTP1dXk4KMmQAbUbrs56cZFNSeMW2to9lx8XJuUjAkkUpxQGL42J0mWPgmtdUIZgSmllQI3fb~VL5VkO9TMlzoGgGps-Z~a4rUN3TGIlIfTFZGBV99t4XKODMrcXWEJgoKQRxernto1FKh36-df4ecm5XkGDPZViBrIfPaz1cFxEOPQjDIKNYSyJ8HIGBLBakYhtt9WDucy4tC~BSAJ7SM1K09xZVvxOoylLKvyc~JbepN2ottFixRytIsjaJJgw__" alt="" />
      </div>
 
-     <div className='flex flex-col justify-center items-center gap-2'>
+     <div className='flex flex-col justify-center items-center gap-2 z-30'>
      <FaRegCheckCircle className='text-green-500 text-5xl' />
-        <h2 className='text-3xl'>Your services have been updated!</h2>
-        <button className=' border rounded-lg text-sm  w-44 hover:bg-red-500 hover:text-white duration-300 hover:border-none h-6 flex justify-center  border-slate-700'>Go to my services</button>
+        <h2 className='text-xl md:text-3xl'>Your services have been updated!</h2>
+        <button className=' border bg-white rounded-lg text-sm  w-44 hover:bg-red-500 hover:text-white duration-300 hover:border-none h-6 flex justify-center  border-slate-700'>Go to my services</button>
      </div>
     </div>
   )
